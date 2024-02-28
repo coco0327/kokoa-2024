@@ -17,7 +17,7 @@
       </div>
       <div class="status-bar__column">
         <span>11%</span>
-        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
@@ -28,11 +28,23 @@
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" required placeholder="Email or phone number" />
-      <input type="password" required placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        class="login-form__input"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        class="login-form__input"
+        type="password"
+        required
+        placeholder="Password"
+      />
+      <input class="login-form__btn" type="submit" value="Log In" />
+      <a href="#" class="login-form__a">Find Kokoa Account or Password</a>
     </form>
     <script
       src="https://kit.fontawesome.com/94a038abec.js"
