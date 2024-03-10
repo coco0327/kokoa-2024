@@ -10,3 +10,13 @@
   font-size: 13px;
   font-weight: 600;
 }
+
+.badge--in-more {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 2px solid #ff6229;
+  color: #ff6229;
+  font-size: 12px;
+  font-weight: 700;
+}

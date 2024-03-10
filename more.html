@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <!-- <span><i class="fa-regular fa-comment-dots fa-lg"></i></span> -->
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span class="screen-header__alert--wrapper">
+          <a href="settings.html">
+            <span class="screen-header__alert alert"></span>
+            <i class="fa-solid fa-gear fa-lg"></i
+          ></a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://th.bing.com/th/id/R.37b1723bee26bcaa31d7e1dad244dbdf?rik=kio7imNRY4SvfQ&riu=http%3a%2f%2fst.depositphotos.com%2f1912933%2f3261%2fi%2f950%2fdepositphotos_32612021-stock-photo-happy-old-woman.jpg&ehk=t8Q7zhR8WfH3bEyPcs2Pj%2bmXqKSxsVFmxKXXRmaW2Fg%3d&risl=&pid=ImgRaw&r=0"
+            class="user-component__img user-component__img--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Coco</h4>
+            <div class="user-component__subtitle-wrapper">
+              <h6 class="user-component__subtitle">+72 10 666 9999</h6>
+              <span class="badge badge--in-more">i</span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+      <div class="more-content">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-calendar"></i>
+            <span>Calender</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-newspaper"></i>
+            <span>Talk Drive</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-face-smile"></i>
+            <span>Emoticon</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-palette"></i>
+            <span>Themes</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-id-card"></i>
+            <span>Account</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-comments"></i>
+            <span>Openchat</span>
+          </div>
+        </div>
+      </div>
+      <div class="more-suggestion">
+        <span class="more-suggestion__title">Suggestions</span>
+        <div class="more-suggestion__icons">
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-box">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="more-suggestion__icon-text">Kokoa Story</div>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-box">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="more-suggestion__icon-text">Kokoa Friends</div>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-box">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="more-suggestion__icon-text">Friends Gem</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link">
+            <i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link">
+            <span class="nav__alert alert"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/94a038abec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
