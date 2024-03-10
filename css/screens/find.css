@@ -107,3 +107,23 @@
   right: 5px;
   font-size: 12px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-chat-content__photo-like:hover i {
+  will-change: trasform;
+  animation: heartBeat 1s linear infinite;
+}
